@@ -1,10 +1,7 @@
-```markdown
-| Dataset       | Missing Rates | 0.1               |                   |                   | 0.3               |                   |                   | 0.5               |                   |                   | 0.7               |                   |                   |
-|               |               | ACC               | NMI               | ARI               | ACC               | NMI               | ARI               | ACC               | NMI               | ARI               | ACC               | NMI               | ARI               |
-| CUB           | DMVG          | 67.26            | 63.23            | 53.85            | 64.86            | 62.89            | 51.36            | 62.93            | 58.68            | 49.36            | 56.26            | 57.95            | 43.92            |
-|               | DCG (Ours)    | 82.23            | 77.70            | 69.21            | 77.17            | 71.35            | 59.85            | 75.50            | 72.21            | 59.12            | 74.67            | 70.19            | 56.41            |
-| Fashion       | DMVG          | 89.56            | 86.28            | 85.53            | 87.26            | 83.68            | 77.85            | 83.63            | 76.58            | 73.23            | 75.88            | 72.56            | 68.36            |
-|               | DCG (Ours)    | 95.83            | 91.29            | 91.19            | 93.13            | 86.99            | 86.00            | 90.04            | 82.25            | 79.99            | 85.76            | 76.42            | 72.79            |
-
-*Clustering results on CUB and HandWritten with different missing rates.*
-```
+| \multirow{2}{*}{Dataset} | \multirow{2}{*}{Missing Rates} | \multicolumn{3}{c|}{0.1} | \multicolumn{3}{c|}{0.3} | \multicolumn{3}{c|}{0.5} | \multicolumn{3}{c|}{0.7} |
+|--------------------------|--------------------------------|--------------------------|--------------------------|--------------------------|--------------------------|
+|                          |                                | ACC                      | NMI                      | ARI                      | ACC                      | NMI            | ARI            | ACC            | NMI            | ARI            | ACC            | NMI            | ARI            |
+|                          | DMVG+PIMVC                     | 67.26                    | 63.23                    | 53.85                    | 64.86                    | 62.89          | 51.36          | 62.93          | 58.68          | 49.36          | 56.26          | 57.95          | 43.92          |
+|                          | DCG~(Ours)                     | \textbf{82.23}           | \textbf{77.70}           | \textbf{69.21}           | \textbf{77.17}           | \textbf{71.35} | \textbf{59.85} | \textbf{75.50} | \textbf{72.21} | \textbf{59.12} | \textbf{74.67} | \textbf{70.19} | \textbf{56.41} |
+|                          | DMVG+PIMVC                     | 89.56                    | 86.28                    | 85.53                    | 87.26                    | 83.68          | 77.85          | 83.63          | 76.58          | 73.23          | 75.88          | 72.56          | 68.36          |
+|                          | DCG~(Ours)                     | \textbf{95.83}           | \textbf{91.29}           | \textbf{91.19}           | \textbf{93.13}           | \textbf{86.99} | \textbf{86.00} | \textbf{90.04} | \textbf{82.25} | \textbf{79.99} | \textbf{85.76} | \textbf{76.42} | \textbf{72.79} |
